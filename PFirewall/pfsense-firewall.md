@@ -62,7 +62,7 @@ pfSense is an open-source firewall and router distribution of FreeBSD. It is man
 
 From PC1, I pinged:
 - PC2 (on a different network)
-- The Kali machine
+- The pfSense LAN interface
 
 Result: All pings succeeded, confirming that the network was fully reachable before applying any rules.
 
@@ -99,7 +99,7 @@ After saving, I applied the changes and confirmed that the rule was placed corre
 
 From PC1, I pinged:
 - PC2 → Failed (rule is working as intended)
-- The Kali machine → Succeeded (not affected by the rule)
+- The pfSense LAN interface → Succeeded (not affected by the rule)
 
 ![blocked_ping](Screenshots/blocked_ping.jpg)
 

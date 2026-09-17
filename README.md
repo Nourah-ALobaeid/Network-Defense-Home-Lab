@@ -12,10 +12,10 @@ The goal is to demonstrate practical understanding of how modern networks are mo
 
 | # | Lab | Focus Area | Tools |
 |---|-----|------------|-------|
-| 01 | [Intrusion Detection with Snort](labs/01-snort-ids.md) | IDS / Signature-based detection | Snort |
-| 02 | [Windows Defender Firewall](labs/02-windows-firewall.md) | Host-based firewall rules | Windows Defender Firewall |
-| 03 | [pfSense Firewall Rules](labs/03-pfsense-firewall.md) | Network firewall & rule ordering | pfSense, GNS3 |
-| 04 | [IPsec Site-to-Site VPN](labs/04-ipsec-vpn.md) | Encrypted tunnel & traffic analysis | IPsec, GNS3, Wireshark |
+| 01 | [Intrusion Detection with Snort](snort/snort-IDS.md) | IDS / Signature-based detection | Snort |
+| 02 | [Windows Defender Firewall](WFirewall/windows-firewall.md) | Host-based firewall rules | Windows Defender Firewall |
+| 03 | [pfSense Firewall Rules](PFirewall/pfsense-firewall.md) | Network firewall & rule ordering | pfSense, GNS3 |
+| 04 | [IPsec Site-to-Site VPN](vpn/ipsec-vpn.md) | Encrypted tunnel & traffic analysis | IPsec, GNS3, Wireshark |
 
 ---
 
